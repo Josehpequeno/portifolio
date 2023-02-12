@@ -47,9 +47,15 @@ export function Content() {
           </a>
         </div>
         <div className="text-center px-3 lg:px-0 justify-center items-center">
-          <h1 className="my-4 text-2xl md:text-3xl lg:text-5xl font-black leading-tight text-secundary">
+          <h1 className="my-1 text-2xl md:text-3xl lg:text-5xl font-black leading-tight text-secundary">
             Josehpequeno
           </h1>
+          <h4 className="my-1 text-md md:text-md lg:text-lg leading-tight text-secundary">
+            Hícaro José Barbosa Soares
+          </h4>
+          <h4 className="my-1 text-md md:text-md lg:text-lg leading-tight text-secundary">
+            Desenvolvedor Fullstack
+          </h4>
           <p className="pt-16 leading-normal text-base md:text-xl lg:text-2xl mb-8 text-secundary opacity-90">
             Estudante da Universidade Estadual do Piauí, realizando o curso de
             Ciência da Computação. Iniciei a realizar projetos de programação em
@@ -57,26 +63,33 @@ export function Content() {
             python, php, rust e javascript. Procuro principalmente oportunidades
             de Back-end com Nodejs.
           </p>
-          <div className="flex justify-center items-center mx-32 py-10 gap-5">
+          <div className="grid grid-flow-row auto-rows md:grid-flow-col auto-cols justify-center items-center mx-32 py-10 gap-5">
             <a href="https://www.linkedin.com/in/hicarojose/">
               <img
-                className=" rounded-sm w-40 h-10"
+                className=" rounded-sm w-32 h-10"
                 alt="linkedin"
                 src="https://img.shields.io/badge/-LinkedIn-white?style=for-the-badge&logo=linkedin&logoColor=192432&labelColor=ffffff&color=ffffff"
               />
             </a>
             <a href="https://github.com/Josehpequeno">
               <img
-                className=" rounded-sm w-40 h-10"
+                className=" rounded-sm w-32 h-10"
                 alt="github"
                 src="https://img.shields.io/badge/-Github-white?style=for-the-badge&logo=github&logoColor=192432&labelColor=ffffff&color=ffffff"
               />
             </a>
             <a href="mailto:hicarojbs21@gmail.com">
               <img
-                className=" rounded-sm w-40 h-10"
+                className=" rounded-sm w-32 h-10"
                 alt="gmail"
                 src="https://img.shields.io/badge/-Gmail-white?style=for-the-badge&logo=gmail&logoColor=192432&labelColor=ffffff&color=ffffff"
+              />
+            </a>
+            <a href="/public/icon.png">
+              <img
+                className=" rounded-sm w-32 h-10"
+                alt="curriculum"
+                src="https://img.shields.io/badge/-Currículo-white?style=for-the-badge&logo=resumé&logoColor=192432&labelColor=ffffff&color=ffffff"
               />
             </a>
           </div>
