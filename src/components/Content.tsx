@@ -1,10 +1,15 @@
 // import React, { useState, useEffect } from "react";
 // import { Link } from "react-router-dom";
 import logo from "../assets/icon.png";
+import pdf from "../assets/curriculo.pdf";
+
 import projeto1 from "../assets/projeto-1.gif";
 import projeto2 from "../assets/projeto-2.png";
 import projeto3 from "../assets/projeto-3.gif";
 import projeto4 from "../assets/projeto-4.png";
+
+import { FaFilePdf, FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 export function Content() {
   return (
@@ -63,34 +68,57 @@ export function Content() {
             python, php, rust e javascript. Procuro principalmente oportunidades
             de Back-end com Nodejs.
           </p>
-          <div className="grid grid-flow-row auto-rows md:grid-flow-col auto-cols justify-center items-center mx-32 py-10 gap-5">
-            <a href="https://www.linkedin.com/in/hicarojose/">
+          <div className="grid grid-flow-row auto-rows md:grid-flow-col justify-center items-center mx-32 py-10 gap-5">
+            {/* <a href="https://www.linkedin.com/in/hicarojose/">
               <img
-                className=" rounded-sm w-32 h-10"
-                alt="linkedin"
-                src="https://img.shields.io/badge/-LinkedIn-white?style=for-the-badge&logo=linkedin&logoColor=192432&labelColor=ffffff&color=ffffff"
+              className="rounded-sm"
+              alt="linkedin"
+              src="https://img.shields.io/badge/-LinkedIn-white?style=for-the-badge&logo=linkedin&logoColor=192432&labelColor=ffffff&color=ffffff"
               />
-            </a>
-            <a href="https://github.com/Josehpequeno">
+            </a> */}
+            {/* <a href="https://github.com/Josehpequeno">
               <img
-                className=" rounded-sm w-32 h-10"
-                alt="github"
-                src="https://img.shields.io/badge/-Github-white?style=for-the-badge&logo=github&logoColor=192432&labelColor=ffffff&color=ffffff"
+              className="rounded-sm"
+              alt="github"
+              src="https://img.shields.io/badge/-Github-white?style=for-the-badge&logo=github&logoColor=192432&labelColor=ffffff&color=ffffff"
               />
+            </a> */}
+            <a
+              href="https://www.linkedin.com/in/hicarojose/"
+              className="rounded-sm bg-white w-32 h-10 flex flex-row gap-4 justify-center items-center"
+            >
+              <FaLinkedin className="text-primary" />
+              <p className=" font-open-sans text-sm uppercase">LinkedIn</p>
             </a>
-            <a href="mailto:hicarojbs21@gmail.com">
+            <a
+              href="https://github.com/Josehpequeno"
+              className="rounded-sm bg-white w-32 h-10 flex flex-row gap-4 justify-center items-center"
+            >
+              <FaGithubSquare className="text-primary" />
+              <p className=" font-open-sans text-sm uppercase">Github</p>
+            </a>
+            <a
+              href="mailto:hicarojbs21@gmail.com"
+              className="rounded-sm bg-white w-32 h-10 flex gap-4 justify-center items-center"
+            >
+              <MdEmail className="text-primary" />
+              <p className=" font-open-sans text-sm uppercase">Gmail</p>
+            </a>
+            {/* <a href="mailto:hicarojbs21@gmail.com">
               <img
-                className=" rounded-sm w-32 h-10"
+                className="rounded-sm"
                 alt="gmail"
                 src="https://img.shields.io/badge/-Gmail-white?style=for-the-badge&logo=gmail&logoColor=192432&labelColor=ffffff&color=ffffff"
               />
-            </a>
-            <a href="/public/icon.png">
-              <img
-                className=" rounded-sm w-32 h-10"
-                alt="curriculum"
-                src="https://img.shields.io/badge/-Currículo-white?style=for-the-badge&logo=resumé&logoColor=192432&labelColor=ffffff&color=ffffff"
-              />
+            </a> */}
+            <a
+              href={pdf}
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-sm bg-white w-32 h-10 flex gap-4 justify-center items-center"
+            >
+              <FaFilePdf className="text-primary" />
+              <p className=" font-open-sans text-xs uppercase">currículo</p>
             </a>
           </div>
         </div>
@@ -113,19 +141,19 @@ export function Content() {
                 Leitor de Mangá Web
                 <br />
                 <br />
-                <div className="flex flex-row gap-5">
+                <div className="flex-row md:flex grid gap-x-0 gap-y-5 md:gap-5 grid-cols-2">
                   <img
-                    className=" rounded-sm w-32 h-9"
+                    className="rounded-sm"
                     alt="nodejs"
                     src="https://img.shields.io/badge/-nodejs-white?style=for-the-badge&logo=node.js&logoColor=192432&labelColor=ffffff&color=ffffff"
                   />
                   <img
-                    className=" rounded-sm w-32 h-9"
+                    className="rounded-sm"
                     alt="javascript"
                     src="https://img.shields.io/badge/-javascript-white?style=for-the-badge&logo=javascript&logoColor=192432&labelColor=ffffff&color=ffffff"
                   />
                   <img
-                    className=" rounded-sm w-32 h-9"
+                    className="rounded-sm"
                     alt="handlebars"
                     src="https://img.shields.io/badge/-handlebars-white?style=for-the-badge&logo=handlebars.js&logoColor=192432&labelColor=ffffff&color=ffffff"
                   />
@@ -160,12 +188,12 @@ export function Content() {
                   <br />
                   <div className="flex flex-row gap-5">
                     <img
-                      className=" rounded-sm w-32 h-9"
+                      className="rounded-sm"
                       alt="nodejs"
                       src="https://img.shields.io/badge/-nodejs-white?style=for-the-badge&logo=node.js&logoColor=192432&labelColor=ffffff&color=ffffff"
                     />
                     <img
-                      className=" rounded-sm w-32 h-9"
+                      className="rounded-sm"
                       alt="javascript"
                       src="https://img.shields.io/badge/-javascript-white?style=for-the-badge&logo=javascript&logoColor=192432&labelColor=ffffff&color=ffffff"
                     />
@@ -195,7 +223,7 @@ export function Content() {
                 <br />
                 <div className="flex flex-row gap-5">
                   <img
-                    className=" rounded-sm w-32 h-9"
+                    className="rounded-sm"
                     alt="rust"
                     src="https://img.shields.io/badge/-rust-white?style=for-the-badge&logo=rust&logoColor=192432&labelColor=ffffff&color=ffffff"
                   />
@@ -229,7 +257,7 @@ export function Content() {
                   <br />
                   <div className="flex flex-row gap-5">
                     <img
-                      className=" rounded-sm w-32 h-9"
+                      className="rounded-sm"
                       alt="python"
                       src="https://img.shields.io/badge/-python-white?style=for-the-badge&logo=python&logoColor=192432&labelColor=ffffff&color=ffffff"
                     />

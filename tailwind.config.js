@@ -9,7 +9,7 @@ module.exports = {
         terciary: "#1bdcaf"
       },
       fontFamily: {
-        'open-sans': ['"Open Sans"'],
+        'open-sans': ['"Open Sans"', 'sans-serif'],
       },
     }
   },
