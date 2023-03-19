@@ -1,7 +1,7 @@
 // import React, { useState, useEffect } from "react";
 // import { Link } from "react-router-dom";
 import logo from "../assets/icon.png";
-import pdf from "../assets/curriculo.pdf";
+import pdf from "../assets/CV___Hicaro_Jose_Barbosa_Soares_2023.pdf";
 
 import projeto1 from "../assets/projeto-1.gif";
 import projeto2 from "../assets/projeto-2.png";
@@ -14,29 +14,6 @@ import { MdEmail } from "react-icons/md";
 export function Content() {
   return (
     <>
-      {/* <nav id="header" className="w-full z-30 top-0 text-white py-1 lg:py-6">
-        <div className="w-full container mx-auto flex flex-wrap items-center justify-center mt-0 px-2 py-2 lg:py-6">
-          <div className="pl-4 flex items-center gap-5">
-            <a
-              className="text-secundary no-underline hover:no-underline font-bold text-lg lg:text-xl flex items-center gap-5"
-              href="https://github.com/Josehpequeno"
-            >
-              <img
-                alt="logo"
-                className="w-12 h-12 rounded-full border-2 border-secundary"
-                src={logo}
-              />
-            </a>
-          </div>
-          <div
-            className="w-full flex-grow lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 text-black p-4 lg:p-0 z-20"
-            id="nav-content"
-          >
-            <ul className="list-reset lg:flex justify-end flex-1 items-center">
-                          </ul>
-          </div>
-        </div>
-      </nav> */}
       <div className="container mx-auto ">
         <div className="my-10 pl-4 flex justify-center items-center">
           <a
@@ -62,11 +39,12 @@ export function Content() {
             Desenvolvedor Fullstack
           </h4>
           <p className="pt-16 leading-normal text-base md:text-xl lg:text-2xl mb-8 text-secundary opacity-90">
-            Estudante da Universidade Estadual do Piauí, realizando o curso de
-            Ciência da Computação. Iniciei a realizar projetos de programação em
-            2019 com trabalhos do curso, neles utilizei diversas linguagens como
-            python, php, rust e javascript. Procuro principalmente oportunidades
-            de Back-end com Nodejs.
+            Bacharel em Ciência da Computação pela Universidade Estadual do
+            Piauí, e atualmente trabalho como programador na STRANS. Iniciei a
+            realizar projetos de programação em 2019 com trabalhos do curso,
+            neles utilizei diversas linguagens como python, php, rust e
+            javascript. Procuro principalmente oportunidades de Back-end com
+            Nodejs.
           </p>
           <div className="grid grid-flow-row auto-rows md:grid-flow-col justify-center items-center mx-32 py-10 gap-5">
             {/* <a href="https://www.linkedin.com/in/hicarojose/">
