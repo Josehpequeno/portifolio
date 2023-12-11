@@ -40,8 +40,7 @@ export function Content() {
           </h4>
           <p className="pt-16 leading-normal text-base md:text-xl lg:text-2xl mb-8 text-secundary opacity-90">
             Bacharel em Ciência da Computação pela Universidade Estadual do
-            Piauí, e atualmente trabalho como programador freelancer. Iniciei a
-            realizar projetos de programação em 2019 com trabalhos do curso,
+            Piauí. Iniciei a realizar projetos de programação em 2019 com trabalhos do curso,
             neles utilizei diversas linguagens como python, php, rust e
             javascript. Procuro principalmente oportunidades de Back-end com
             Nodejs.
